@@ -92,18 +92,18 @@ form {
 }
 .form-control {
     position: relative;
-    border: 1px solid var(--text-light-clr);
-    border-radius: 2px;
 
 }
 input {
     font-weight: 700;
+    border: 2px solid var(--text-light-clr);
+    border-radius: 2px;
     color: var(--text-clr);
 }
 input, button {
     padding: 1rem 2rem;
     outline: none;
-    border: none;
+
     width: 100%;
     border-radius: 2px;
 }
@@ -118,6 +118,7 @@ input::placeholder {
 button {
     text-transform: uppercase;
     background-color: var(--btn-bg-clr);
+    border: none;
     color: var(--white-clr);
     font-size: 1rem;
     font-weight: 400;
